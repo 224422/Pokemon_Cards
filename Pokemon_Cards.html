@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pokemon Cards</title>
+        <h1>Pokemon Cards</h1>
+    </head>
+    <link href="Pokemon_Cards.css" rel="stylesheet" type="text/css">
+    <link href="Pokemon_Cards.php" rel="stylesheet" type="text/php">
+
+    <style>
+    body {
+        background-color: #000000;
+    }
+    </style>
+    <form action="PokemonCards.php" method= "post" id= "addtolist">
+        <br>
+        <h2>Pokemon Name</h2>
+        <br>
+        <input type="text" name="Pokemon" class="center" id= "Name"/>
+        <br>
+        <h2>Type</h2>
+        <br>
+        <input type="text" name="Type" class="center" id= "Type"/>
+        <br>
+        <h2>Move 1</h2>
+        <br>
+        <input type="text" name="Move1" class="center" id= "Move1"/>
+        <br>
+        <h2>Move 2</h2>
+        <br>
+        <input type="text" name="Move2" class="center" id= "Move2"/>
+        <br>
+    
+    <input name = 'create' type= "submit" value= 'Add Info'>
+    <button>Delete</button><button>Edit</button><button>Details</button>
+</form>
+</html>
